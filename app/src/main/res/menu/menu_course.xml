@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sherif.atbuattendance.attendance">
+    <item
+        android:id="@+id/home"
+        android:title="ATBU E A Home"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/close"
+        android:title="Sign Out"
+        android:orderInCategory="300"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_logout"/>
+</menu>

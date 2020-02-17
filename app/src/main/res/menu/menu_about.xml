@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sherif.atbuattendance.attendance">
+    <item
+        android:id="@+id/about"
+        android:title="Submit Attendance"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_edit"/>
+    <item
+        android:id="@+id/close"
+        android:title="Exit ATBU E A"
+        android:orderInCategory="200"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_logout"/>
+</menu>

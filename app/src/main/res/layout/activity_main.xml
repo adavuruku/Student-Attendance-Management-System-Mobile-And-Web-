@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sherif.atbuattendance.MainActivity">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorwhite"
+        tools:context="com.example.atbunamsn.MainActivity">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_horizontal"
+            android:text="A T B U"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAlignment="center"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/image_demo"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="84dp"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/app"
+            android:text="E - ATTENDANCE"
+            android:id="@+id/ee"
+            android:textAlignment="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="4dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.05" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
